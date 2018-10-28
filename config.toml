@@ -1,0 +1,48 @@
+title = "Rory Shively"
+baseURL = "http://roryshively.com/"
+tags = ["portfolio", "blog"]
+languageCode = "en-US"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "tomanistor"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    tagline = "Software Engineer"
+    author = "Toma Nistor"
+    description = "Full-stack web engineer based in Austin, TX."
+    logoBig = "/images/rory-shively-title.png"
+    logoSmall = "/images/rory-shively-title.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/osprey.png"
+    linkedin = "roryshively"
+    github = "RoryShively"
+    facebook = ""
+    twitter = ""
+    email = "roryshively1@gmail.com"
+    googleTagManager = ""
+    highlightJS = true
+    copyright = true
+    credit = false
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Work"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Blog"
+    url  = "/#blog"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4
